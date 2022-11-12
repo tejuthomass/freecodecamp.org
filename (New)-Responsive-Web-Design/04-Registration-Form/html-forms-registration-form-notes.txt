@@ -1,0 +1,33 @@
+Learn HTML Forms by Building a Registration Form
+
+vh (units) - viewport height
+height: 100vh;
+
+to remove default scroll-bar set --> margin: 0;
+
+-> <form action='link'></form>
+-> method="get/post"
+	-  how to send form-data to the URL specified in the action attribute.
+-> <fieldset></fieldset>
+	- sections of a form
+	<label for="value"> <input id="value" type="text/email/password/radio/checkbox/number" required minlength="value(for passwords)"/pattern="[a-z0-5]{8,}" name="rel-value"(for radio buttons) min="value" max="value" (for type number) /></label>
+	- id and for to link input and label(accessibility best practices). 
+-> The rem unit stands for root em, and is relative to the font size of the html element.
+-> <input type="submit" value="Submit">
+	- The first input element with a type of submit is automatically set to submit its nearest parent form element.
+-><select>
+          <option value="some-value"></option>
+  </select>
+-> <textarea rows="number" cols="number" placeholder="some-text"></textarea>
+-> 	font-family: Tahoma;
+	width: 60vw;
+  	max-width: 500px;
+  	min-width: 300px;
+  	margin: 0 auto;
+	border: none;
+	selector:last-of-type {
+	}
+
+	width: unset/100%;
+-> input[type="submit"] {
+   }

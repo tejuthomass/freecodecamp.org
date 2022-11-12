@@ -1,0 +1,51 @@
+Learn Basic CSS by Building a Cafe Menu
+
+-> <style></style> (or) in separate file [styles.css]
+	- within head
+	<head>
+		<link ref="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			- to look same in desktop as well as mobile.
+	</head>
+	element1, e2, e3....(type selectors) {
+	 	property: value;
+	}
+	
+	text-align: center/left/right;
+	background-color: brown/burlywood;
+	width: 300px/80%;
+	margin-right/margin-left/margin-top/margin-bottom: auto/5px/-25px;
+	background-image: url(link);
+	width: 50%;
+	padding-top/padding-bottom/padding-right/padding-left: 20px;
+	padding: 20px;
+	max-width: 500px;
+	font-family: sans-serif/Impact/serif, fallback-font;
+	font-style: italic;
+	font-size: 40px;
+	height: 3px;
+	border-color: brown;
+	color: black;
+	display: block/inline-block;
+
+
+-> <div class="class-name"></div>
+	- for design layout purpose
+	- all elements must be in div
+-> /* comment */
+
+-> .class-name (class selector) {
+	  styles
+   }
+
+-> <article></article>
+	- contains multiple elements that have related information.
+-> inline elements vs block-level elements
+
+-> .item p { } 
+	- p element is nested inside item class.
+-> <p></p><p></p> & width:50%; same line (miscellaneous)
+-> pseudo-selector
+	a:visited/hover/active { 
+		propertyName: propertyValue; 
+	}

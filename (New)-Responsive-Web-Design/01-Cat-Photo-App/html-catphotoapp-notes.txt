@@ -1,0 +1,59 @@
+Learn HTML by Building a Cat Photo App
+
+Tags:
+-> <h1> - <h6> 
+	- use only one h1 tag per page
+-> <p>
+-> <!-- Comment -->
+-> <main> 
+	- for SEO
+-> <img src="link" alt="alternate-text">
+	- attributes:
+		- src
+		- alt
+	- self-closing tag
+-> <a href="link" target="_blank">text/image</a>
+	_blank - link opens in new tab
+-> <section>
+-> <ul> <li></li>.... </ul>
+-> <figure> image <figcaption>caption</figcaption> </figure>
+-> <em>text</em>
+-> <ol> <li></li>.... </ol>
+-> <strong>text</strong>
+-> <form action="path/url">
+	<input type="text" name="value" placeholder="text" required>
+	
+	<fieldset>
+		- groups related elements together
+		- block-level elements
+	<legend>text</legend>
+		- acts as a caption for the content in the fieldset
+
+	<label (type 2)for="id-value"><input checked value="value" name="same-value" type="radio/checkbox" id="unique-per-page"> value</label>
+		- form data: name=value (if value att is not present def is [name]=on)
+		- self-closing
+
+		eg.(for type 2)
+			<input id="loving" type="checkbox"> 
+            		<label for="loving">Loving</label>
+	</fieldset>
+	
+	<button type="submit(default)">text</button>
+		- input and button are inline elements
+   </form>
+-> <footer></footer>
+	- after main element
+-> <p>text</p>
+	- block-level element
+-> <body></body>
+	- everything added to the page must be inside body.
+-> <head lang="en> 
+	- other important information 
+	<title>TITLE</title>
+   </head>
+-> <html lang="en"> All elements </html>
+-> <!DOCTYPE html>
+	- declaration
+	- ensures the browser tries to meet industry-wide specifications.
+-> <meta charset="UTF-8">
+	- self-closing

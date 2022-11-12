@@ -1,0 +1,39 @@
+Learn CSS Colors by Building a Set of Colored Markers
+
+-> margin: auto;
+   margin: margin-top-&-margin-bottom margin-left-&-margin-right;
+   class="name1 name2";
+-> 2 main color models: 
+	- additive RGB (red, green, blue) model used in electronic devices
+		rgb(0-255, 0-255, 0-255);
+	- subtractive CMYK (cyan, magenta, yellow, black) model used in print.
+->
+primary colors
+secondary colors
+tertiary colors
+
+color wheel
+
+complementary colors
+
+hexadecimal color values: 
+#000000 to #FFFFFF 
+3B7E20CC
+
+HSL color model, or hue, saturation, and lightness: hsl(0-360, 0-100%, 0-100%)
+linear-gradient: creates an image element, paired with the background property;
+	linear-gradient(gradientDirection[deg](default: 180deg), color1, color2, ...);
+	- minimum of two color arguments
+Opacity
+
+opacity: 0% to 100%/ 0.5;
+alpha channel
+rgba(redValue, greenValue, blueValue, alphaValue(0 to 1.0/0-100%));
+border-color
+border: none(default)
+border-left-width: px;
+border-left-style: solid/double;
+border-left-color: 
+border-left: width style color; (shorthand form)
+box-shadow: offsetX[5px] offsetY[px] blurRadius(optional)[px] spreadRadius(optional) color;
+
